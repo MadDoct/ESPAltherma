@@ -92,7 +92,8 @@ If you are using an **ESP8266** select the `nodemcuv2` environement.
     ```
 
 4. Now open and edit the file you just uncommented, e.g. `include/def/ALTHERMA(HYBRID).h` (or the one under the language chosen) as follow:
-    Uncomment each line of the values you are interested in. *Try not to get everything as it will turn into a very big mqtt message*. 
+    Uncomment each line of the values you are interested in. *Try not to get everything as it will turn into a very big mqtt message*.
+    NOTE: If using an esp8266 also remove PROGMEM.
   
     ```c++
     ...
